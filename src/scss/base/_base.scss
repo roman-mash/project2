@@ -8,3 +8,10 @@ body {
 .container {
   max-width: 1200px;
 }
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}

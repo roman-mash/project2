@@ -1,0 +1,14 @@
+header.header 
+    .container
+      .header-top
+        img(src="./img/logo.png", alt="Logo" width="153").header-top__logo
+        nav.header-top__nav
+          ul.header-menu
+            +header-menu-item("Home")
+            +header-menu-item("About")
+            +header-menu-item("Services")
+            +header-menu-item("Blog")
+            +header-menu-item("Contact us")
+      h1.header__title Technology Website Made Easy!
+      p.header__info The most complete field service software for IT & Mobile Support, Fire Services, Electrical, Maintenance, HVAC & Security Industries
+      +btn-green("SIGN UP FREE")
