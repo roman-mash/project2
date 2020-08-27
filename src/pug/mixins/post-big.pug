@@ -1,0 +1,9 @@
+mixin post-big(title, img, link="#")
+  .post-big
+    .post-big__date 
+      span.post-big__day 20
+      p.post-big__month apr
+    a.post-big__link(href= link)
+      img.post-big__img(src="./img/" + img, alt="Post image")
+    a.post-big__title(href= link) #{title}
+    a.btn-read-more(href= link) Read More

@@ -1,0 +1,26 @@
+.footer-news {
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.footer-news__text {
+  margin: 0;
+  color: #4b4b4d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration: underline;
+  letter-spacing: 0.8px;
+}
+
+.footer-news__link {
+  color: #16c2a3;
+  letter-spacing: 0.8px;
+
+  &:hover {
+    color: #16c2a3;
+  }
+}

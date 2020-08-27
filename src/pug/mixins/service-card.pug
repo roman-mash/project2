@@ -1,0 +1,6 @@
+mixin service-card(title, img, info, link="#")
+  .service-card 
+    img.service-card__img(src="./img/" + img, alt="Service card")
+    h3.service-card__title #{title}
+    p.service-card__info #{info}
+    +btn-grey("Learn More", link)(class="btn-grey--hover")

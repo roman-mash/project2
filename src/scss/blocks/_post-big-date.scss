@@ -1,0 +1,26 @@
+.post-big__date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 8px;
+  width: 70px;
+  height: 60px;
+  background-color: #16c2a3;
+  color: #ffffff;
+  text-align: center;
+}
+
+.post-big__day {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.post-big__month {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+}

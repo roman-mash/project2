@@ -1,0 +1,6 @@
+- const links = [{ title: "Home", link: "#" }, {title: "About Us", link: "#"}, {title: "Support Center", link: "#"}, {title: "Services", link: "#"}, {title: "Blog", link: "#"}, {title: "Contact Us", link: "#"}, {title: "Privacy Policy", link: "#"}, {title: "Terms & Condition", link: "#"},]
+
+mixin footer-link(title, link="#")
+  each link in links
+    li.footer-links__item
+      a.footer__link(href= link.link) #{link.title}

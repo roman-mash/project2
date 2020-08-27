@@ -1,0 +1,41 @@
+.post-big {
+  box-shadow: 0 0 26px 1px rgba(0, 0, 0, 0.15);
+  border: 2px solid #1d8983;
+  background-color: #fefefe;
+  position: relative;
+}
+
+.post-big__img {
+  width: 100%;
+}
+
+.post-big__title {
+  display: block;
+  margin: 30px 20px 35px;
+  max-width: 350px;
+  color: #16c2a3;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration: none;
+
+  &:hover {
+    color: #16c2a3;
+    text-decoration: none;
+  }
+}
+
+.btn-read-more {
+  display: block;
+  margin: 0 20px 40px;
+  color: #484949;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  &:hover {
+    color: #484949;
+  }
+}

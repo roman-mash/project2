@@ -1,0 +1,11 @@
+mixin post-small(title, img, day, month, link="#")
+  .post-small
+    .post-small__left
+      .post-small__date 
+        span.post-small__day #{day}
+        p.post-small__month #{month}
+      a.post-small__link(href= link)
+        img.post-small__img(src="./img/" + img, alt="Post image")
+    .post-small__right
+      a.post-small__title(href= link) #{title}
+      a.btn-read-more(href= link) Read More

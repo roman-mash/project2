@@ -1,0 +1,39 @@
+.post-small {
+  box-shadow: 0 0 26px 1px rgba(0, 0, 0, 0.15);
+  background-color: #fefefe;
+  display: flex;
+  margin-bottom: 38px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .btn-read-more {
+    margin: 0;
+  }
+}
+
+.post-small__left {
+  position: relative;
+}
+
+.post-small__right {
+  padding-left: 30px;
+}
+
+.post-small__title {
+  display: block;
+  margin: 30px 40px 35px 0;
+  margin-right: 0;
+  max-width: 350px;
+  color: #4b4b4d;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-decoration: none;
+
+  &:hover {
+    color: #4b4b4d;
+    text-decoration: none;
+  }
+}
